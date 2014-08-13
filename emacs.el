@@ -50,4 +50,11 @@
     (setq alpha-list (cdr (append alpha-list (list h))))
     )
 )
+
+
 ;;
+;;php-mode
+;;please download php-mode save to load-path
+(add-to-list 'load-path "~/.emacs.d")
+(require 'php-mode)
+(add-to-list 'auto-mode-alist'("\\.php$" . php-mode))
