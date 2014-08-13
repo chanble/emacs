@@ -5,8 +5,7 @@
 (setq inhibit-startup-message t)
 (global-linum-mode t)
 (global-hl-line-mode t)
-;;匹配括号
-(show-paren-mode t)
+
 (setq show-paren-style 'parentheses)
 
 (add-hook 'html-mode-hook
@@ -26,6 +25,7 @@
  '(font-use-system-font t)
  '(menu-bar-mode nil)
  '(scroll-bar-mode nil)
+ ;;匹配括号
  '(show-paren-mode t)
  '(text-mode-hook (quote (turn-on-auto-fill text-mode-hook-identify)))
  '(tool-bar-mode nil))
