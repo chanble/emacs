@@ -6,8 +6,7 @@
 (setq inhibit-startup-message t)
 (global-linum-mode t)
 (global-hl-line-mode t)
-;;匹配括号
-(show-paren-mode t)
+
 (setq show-paren-style 'parentheses)
 
 (add-hook 'html-mode-hook
@@ -27,6 +26,7 @@
  '(font-use-system-font t)
  '(menu-bar-mode nil)
  '(scroll-bar-mode nil)
+ ;;匹配括号
  '(show-paren-mode t)
  '(text-mode-hook (quote (turn-on-auto-fill text-mode-hook-identify)))
  '(tool-bar-mode nil))
@@ -39,7 +39,7 @@
 
 (global-set-key [(f8)] 'loop-alpha)  ;;注意这行中的F8 , 可以改成你想要的按键
 
-(setq alpha-list '((95 65) (100 100)))
+(setq alpha-list '((85 55) (100 100)))
 
 (defun loop-alpha ()
   (interactive)
@@ -51,4 +51,11 @@
     (setq alpha-list (cdr (append alpha-list (list h))))
     )
 )
+
+
 ;;
+;;php-mode
+;;please download php-mode save to load-path
+(add-to-list 'load-path "~/.emacs.d")
+(require 'php-mode)
+(add-to-list 'auto-mode-alist'("\\.php$" . php-mode))
