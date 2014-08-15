@@ -1,3 +1,4 @@
+(setq default-directory "/mine/www")
 (setq default-tab-width 4)
 (setq tab-width 4)
 (global-set-key (kbd "RET") 'newline-and-indent)
