@@ -54,8 +54,19 @@
 
 
 ;;
-;;php-mode
+
 ;;please download php-mode save to load-path
 (add-to-list 'load-path "~/.emacs.d")
+
+;;php-mode
 (require 'php-mode)
-(add-to-list 'auto-mode-alist'("\\.php$" . php-mode))
+;;(add-to-list 'auto-mode-alist'("\\.php$" . php-mode))
+
+;;please download multi-web-mode save to load-path
+(require 'multi-web-mode)
+(setq mweb-default-major-mode 'html-mode)
+(setq mweb-tags '((php-mode "<\\?php\\|<\\? \\|<\\?=" "\\?>")
+                  (js-mode "<script +\\(type=\"text/javascript\"\\|language=\"javascript\"\\)[^>]*>" "</script>")
+                  (css-mode "<style +type=\"text/css\"[^>]*>" "</style>")))
+(setq mweb-filename-extensions '("php" "htm" "html" "ctp" "phtml" "php4" "php5"))
+(multi-web-global-mode 1)
