@@ -70,3 +70,8 @@
                   (css-mode "<style +type=\"text/css\"[^>]*>" "</style>")))
 (setq mweb-filename-extensions '("php" "htm" "html" "ctp" "phtml" "php4" "php5"))
 (multi-web-global-mode 1)
+
+
+;download whitespace.el save to load-path
+(require 'whitespace)
+(global-set-key [f6] 'whitespace-mode)
