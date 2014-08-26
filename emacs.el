@@ -22,6 +22,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(column-number-mode t)
+ '(cua-mode t nil (cua-base))
  '(current-language-environment "UTF-8")
  '(font-use-system-font t)
  '(menu-bar-mode nil)
