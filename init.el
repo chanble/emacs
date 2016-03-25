@@ -11,6 +11,7 @@
 (require 'init-fiplr)
 
 (require 'init-whitespace)
+(require 'init-helm)
 
 
 (provide 'init)
