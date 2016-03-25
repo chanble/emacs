@@ -2,7 +2,7 @@
 (require-package 'fiplr)
 
 (setq fiplr-root-markers '(".git" ".svn"))
-(setq fiplr-ignored-globs '((directories (".git" ".svn" "node_modules"))
+(setq fiplr-ignored-globs '((directories (".git" ".svn" "node_modules" ".*"))
                             (files ("*.jpg" "*.png" "*.zip" "*~"))))
 
 
