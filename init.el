@@ -13,6 +13,7 @@
 (require 'init-whitespace)
 (require 'init-helm)
 (require 'init-flycheck)
+(require 'init-markdown)
 
 
 (provide 'init)
