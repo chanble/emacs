@@ -12,6 +12,7 @@
 
 (require 'init-whitespace)
 (require 'init-helm)
+(require 'init-flycheck)
 
 
 (provide 'init)
