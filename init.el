@@ -15,5 +15,6 @@
 (require 'init-flycheck)
 (require 'init-markdown)
 (require 'init-company)
+(require 'init-json)
 
 (provide 'init)
