@@ -12,6 +12,7 @@
 (require 'init-markdown)
 (require 'init-company)
 (require 'init-json)
+(require 'init-anzu)
 
 (require 'init-common)
 (require 'init-appearance) ;; 关于emacs的外观设置
