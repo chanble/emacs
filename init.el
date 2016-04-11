@@ -11,10 +11,14 @@
 (require 'init-flycheck)
 (require 'init-markdown)
 (require 'init-company)
+(require 'init-js2)
 (require 'init-json)
 (require 'init-anzu)
+
+;; (require 'init-theme)
 
 (require 'init-common)
 (require 'init-appearance) ;; 关于emacs的外观设置
 (require 'init-keymap)
+
 (provide 'init)

@@ -10,4 +10,7 @@
 ;disable auto save
 (setq auto-save-default nil)
 
+(add-hook 'js2-mode-hook 'hs-minor-mode)
+(add-hook 'json-mode-hook 'hs-minor-mode)
+
 (provide 'init-common)

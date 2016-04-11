@@ -20,7 +20,7 @@
 ;;    (tab-mark     ?\t    [?\u00BB ?\t] [?\\ ?\t]))
 ;;)
 (custom-set-faces
-  '(whitespace-space ((t (:bold t :foreground "gray75" :background: nil))))
+  '(whitespace-space ((t (:bold nil :foreground "gray75" :background: nil))))
   ;;'(whitespace-empty ((t (:foreground "firebrick" :background "SlateGray1"))))
   ;;'(whitespace-hspace ((t (:foreground "gray75" :background nil))))
   '(whitespace-indentation ((t (:foreground "gray75" :background nil))))
