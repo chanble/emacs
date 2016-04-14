@@ -15,7 +15,7 @@
 (require 'init-json)
 (require 'init-anzu)
 
-;; (require 'init-theme)
+(require 'init-theme)
 
 (require 'init-common)
 (require 'init-appearance) ;; 关于emacs的外观设置
