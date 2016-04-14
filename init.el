@@ -14,6 +14,7 @@
 (require 'init-js2)
 (require 'init-json)
 (require 'init-anzu)
+(require 'init-indent-guide)
 
 (require 'init-theme)
 
