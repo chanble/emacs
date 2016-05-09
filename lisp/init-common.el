@@ -1,6 +1,6 @@
 ;; init-common.el
 
-(set-default-font "Consolas 10")
+;;(set-default-font "Consolas 10")
 (show-paren-mode 1)
 (global-hl-line-mode t)
 (setq default-tab-width 4)
@@ -13,4 +13,6 @@
 (add-hook 'js2-mode-hook 'hs-minor-mode)
 (add-hook 'json-mode-hook 'hs-minor-mode)
 
+(put 'upcase-region 'disabled nil)
+(put 'downcase-region 'disabled nil)
 (provide 'init-common)
