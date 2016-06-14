@@ -21,5 +21,7 @@
 (require 'init-common)
 (require 'init-appearance) ;; 关于emacs的外观设置
 (require 'init-keymap)
+(require 'init-web)
+(require 'init-php)
 
 (provide 'init)
