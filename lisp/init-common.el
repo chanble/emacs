@@ -15,4 +15,6 @@
 
 (put 'upcase-region 'disabled nil)
 (put 'downcase-region 'disabled nil)
+(global-auto-revert-mode t)
+
 (provide 'init-common)
