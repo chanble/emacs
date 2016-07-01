@@ -2,6 +2,7 @@
 ;; 对emacs一些外观设置
 
 (global-linum-mode t)
+(setq column-number-mode t)
 (custom-set-variables
  '(tool-bar-mode nil))
 
